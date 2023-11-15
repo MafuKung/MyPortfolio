@@ -11,29 +11,28 @@ function AboutCard() {
             Hello, I am <span className="purple">Siramet Sinkhruesuan </span>
             <br />
             I am a third-year student at Chulalongkorn University.
-            {/* <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            <br />
+            I am currently study in The Department of Mathematics and Computer Science.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do! */}
+            Apart from coding, some other activities that I love to do!
           </p>
-          {/* <ul>
+          <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Listen to musics
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Travelling
-            </li>
-          </ul> */}
+            </li> */}
+          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Live in the present, face the future, and make the most of today"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Me</footer>
         </blockquote>
       </Card.Body>
     </Card>

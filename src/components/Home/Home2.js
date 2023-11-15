@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,15 +20,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
+            I am a third-year student 
+              <br />Computer Science Student 
+              {/* <i>
                 <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
+              </i> */}
+              <br />At Chulalongkorn University
+              {/* <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
@@ -49,7 +48,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/MafuKung"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +74,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -94,15 +93,25 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/mafu_kung/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.facebook.com/siramet.sin/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillFacebook />
                 </a>
               </li>
             </ul>

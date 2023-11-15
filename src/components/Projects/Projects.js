@@ -8,6 +8,11 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import BIProject from "../../Assets/Projects/BI Project.png";
+import minigame from "../../Assets/Projects/StartScreen.png";
+import tamsang from "../../Assets/Projects/TamSang CRUD.png";
+
+
 
 function Projects() {
   return (
@@ -15,46 +20,46 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works </strong>and <strong className="purple">Experience </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Here are some projects that I have worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tamsang}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="React App - TamSang CRUD"
+              description="A group term project of basic CRUD."
+              ghLink="https://github.com/PhupaSirirat/tamsang-crud#react-app---tamsang-crud"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={BIProject}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Business intelligent project"
+              description="Business Intelligence Project Assignment, Datamine AdventureWork dataset and visualize by Tableau."
+              ghLink="https://github.com/Lolidezu/DataMineTableau"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={minigame}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Mini 2D Game"
+              description="Mini 2D game in term project first year with Java by using Apache NetBeans."
+              ghLink="https://github.com/MafuKung/Mini-2D-Game"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +91,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
