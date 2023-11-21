@@ -2,16 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import BIProject from "../../Assets/Projects/BI Project.png";
 import minigame from "../../Assets/Projects/StartScreen.png";
 import tamsang from "../../Assets/Projects/TamSang CRUD.png";
-
+import SE from "../../Assets/Projects/SE-termproject.jpg";
 
 
 function Projects() {
@@ -59,17 +53,17 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          { <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={SE}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Mobile application for disabled people to navigate public transportation"
+              description="Project on developing a mobile application for disabled people to navigate public transportation for the course SOFTWARE ENGINEERING METHODOLOGY AND DEVELOPMENT. The aim is to find public transit routes catering to the needs of disabled individuals who are unable to walk independently."
+              ghLink="https://github.com/PhupaSirirat/SE-TermProject"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
-
+          /*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
