@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hello, I am <span className="purple">Siramet Sinkhruesuan </span>
             <br />
-            I am a third-year student at Chulalongkorn University.
+            I am a fourth-year student at Chulalongkorn University.
             <br />
             I am currently study in The Department of Mathematics and Computer Science.
             <br />
