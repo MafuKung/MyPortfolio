@@ -7,6 +7,7 @@ import minigame from "../../Assets/Projects/StartScreen.png";
 import tamsang from "../../Assets/Projects/TamSang CRUD.png";
 import SE from "../../Assets/Projects/SE-termproject.jpg";
 import AIchat from "../../Assets/Projects/AI Chatbot.png";
+import Ecom from "../../Assets/Projects/E-commerce.png";
 
 
 function Projects() {
@@ -74,7 +75,17 @@ function Projects() {
               //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>      
+          </Col>   
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecom}
+              isBlog={false}
+              title="E-commerce website"
+              description="Developed a full-stack e-commerce website using React, Express.JS and MongoDB, enabling users to browse products and add to cart."
+              ghLink="https://github.com/MafuKung/DDB-Project-E-Commerce"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>   
         </Row>
       </Container>
     </Container>
