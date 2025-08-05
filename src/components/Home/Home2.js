@@ -1,14 +1,13 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Myself02 from "../../Assets/Myself02.jpg";
+import "./Home.css";
 
 function Home2() {
   return (
@@ -20,40 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a fourth-year student 
-              <br />Computer Science Student 
-              {/* <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i> */}
-              <br />At Chulalongkorn University
-              {/* <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              I'm a recent graduate with a <b className="purple">Bachelor of Science in Computer Science</b> from
+              <b className="purple"> Chulalongkorn University</b>, class of 2025. <br />
+              <br />
+              I have hands-on experience in <b className="purple">full-stack web development</b>, having worked
+              with technologies like <b className="purple">React, Node.js, MongoDB, SQL,</b> and{" "}
+              <b className="purple">.NET (C#)</b>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+              During my internship at Quantium Technology, I built and maintained real-world web applications in the
+              <b className="purple"> private markets industry</b>, and collaborated in an Agile environment using{" "}
+              <b className="purple">Azure DevOps</b> and <b className="purple">Trello</b>.
+              <br />
+              <br />
+              I’m passionate about solving real-world problems through clean and scalable code, and I'm
+              always eager to learn and adapt to new technologies.
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={Myself02} className="img-fluid profile-img" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -74,26 +60,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/mafu_kung/"
@@ -114,6 +80,17 @@ function Home2() {
                   <AiFillFacebook />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/siramet-sinkhruesuan-927903293/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+
             </ul>
           </Col>
         </Row>
