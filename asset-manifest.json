@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.4c8e69b0.css",
-    "main.js": "/MyPortfolio/static/js/main.e7f9640f.js",
+    "main.js": "/MyPortfolio/static/js/main.59c569e3.js",
     "static/js/415.4d6acbeb.chunk.js": "/MyPortfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NextFlixIcon.png": "/MyPortfolio/static/media/NextFlixIcon.9a54f0ac429ced22adb9.png",
@@ -11,20 +11,23 @@
     "static/media/Myself02.jpg": "/MyPortfolio/static/media/Myself02.a0844bd40ea9c1e33967.jpg",
     "static/media/BI Project.png": "/MyPortfolio/static/media/BI Project.c0210bdd641c30d03604.png",
     "static/media/Myself01.jpg": "/MyPortfolio/static/media/Myself01.babb6dc177b3fe7522b7.jpg",
+    "static/media/Resume.pdf": "/MyPortfolio/static/media/Resume.e69bee659787f1d68f13.pdf",
     "static/media/SE-termproject.jpg": "/MyPortfolio/static/media/SE-termproject.02305e5d8f1559b9b61a.jpg",
     "static/media/E-commerce.png": "/MyPortfolio/static/media/E-commerce.e373f7ba38843ca1b068.png",
     "static/media/Myself3.jpg": "/MyPortfolio/static/media/Myself3.5ff79e972c448728cbef.jpg",
-    "static/media/Resume.pdf": "/MyPortfolio/static/media/Resume.0bb2faaa63353d834314.pdf",
+    "static/media/ToDoList.png": "/MyPortfolio/static/media/ToDoList.df35d9029876208e089c.png",
     "static/media/home-bg.jpg": "/MyPortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/rps.png": "/MyPortfolio/static/media/rps.b753fdf151e04639a56e.png",
+    "static/media/pokemon-search.png": "/MyPortfolio/static/media/pokemon-search.f00adc866176ffdd22a6.png",
     "static/media/pre.svg": "/MyPortfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.4c8e69b0.css.map": "/MyPortfolio/static/css/main.4c8e69b0.css.map",
-    "main.e7f9640f.js.map": "/MyPortfolio/static/js/main.e7f9640f.js.map",
+    "main.59c569e3.js.map": "/MyPortfolio/static/js/main.59c569e3.js.map",
     "415.4d6acbeb.chunk.js.map": "/MyPortfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c8e69b0.css",
-    "static/js/main.e7f9640f.js"
+    "static/js/main.59c569e3.js"
   ]
 }
