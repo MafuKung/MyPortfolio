@@ -9,6 +9,9 @@ import SE from "../../Assets/Projects/SE-termproject.jpg";
 import AIchat from "../../Assets/Projects/AI Chatbot.png";
 import Ecom from "../../Assets/Projects/E-commerce.png";
 import NextFlix from "../../Assets/Projects/NextFlixIcon.png";
+import Pokemon from "../../Assets/Projects/pokemon-search.png";
+import Rps from "../../Assets/Projects/rps.png";
+import Todolist from "../../Assets/Projects/ToDoList.png";
 
 function Projects() {
   return (
@@ -93,6 +96,36 @@ function Projects() {
               description="A Netflix-inspired web application built with Next.js and NestJS. Includes responsive UI, movie detail pages, YouTube trailer modals, and TMDB API integration. Backend follows Clean Architecture with auto-documented REST APIs (Apidog)."
               ghLink="https://github.com/MafuKung/Nextflix-Project---Frontend"
               demoLink="https://nextflix-project-frontend.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Pokemon}
+              isBlog={false}
+              title="Search Pokémon Web App"
+              description="SSR Pokémon browser using public GraphQL API with client-side filtering and server-side rendering. Focused on clean architecture and state management."
+              ghLink="https://github.com/MafuKung/search-pokemon"
+              demoLink="https://search-pokemon-ad9g-git-main-siramets-projects.vercel.app/?_vercel_share=ievuFyCODeUVu2a6iLbHa0eAun0KQJ2s"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Rps}
+              isBlog={false}
+              title="Rock-Paper-Scissors Game Web App"
+              description="Interactive web game with backend game logic and scoreboard API. Supported user persistence, cookies, and real-time updates. Deployed on Ubuntu server."
+              ghLink="https://github.com/MafuKung/rps-game"
+              //demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Todolist}
+              isBlog={false}
+              title="To-Do List Web App"
+              description="Full-stack task management app with RESTful API and containerized deployment. Integrated Prisma ORM for database access and GitHub Actions for CI/CD."
+              ghLink="https://github.com/MafuKung/todolist"
+              //demoLink=""
             />
           </Col>
 

@@ -13,7 +13,7 @@ import {
 import {
   SiNextdotjs,
   SiPostgresql,
-  SiAngular
+  SiAngular, SiNestjs, SiDocker, SiExpress, SiPrisma, SiTailwindcss, SiBootstrap
 } from "react-icons/si";
 
 function Techstack() {
@@ -51,6 +51,24 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
     </Row>
   );
